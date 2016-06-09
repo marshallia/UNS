@@ -64,8 +64,6 @@ angular.module('ionic-maps', ['ionic'])
       templateUrl: 'templates/tour.html'
     })
   ;
-
-  $urlRouterProvider.otherwise('/home');
 })
 
 .controller("MainCtrl", function($scope, $ionicSlideBoxDelegate) {
