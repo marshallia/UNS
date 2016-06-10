@@ -1,17 +1,17 @@
 <ion-view>
 <div class="bar bar-header">
-  <button class="button button-positive icon ion-home" ui-sref="home"></button>
-  <div class="h1 title">Tour</div>
+   <div class="h1 title">Tour</div>
   <button class="button button-positive icon icon-home">Edit</button>
 </div>
-<ion-content class="has-header" ng-controller="tour">
-	<div class="list">
-<a class="item item-thumbnail-left" href="#">
-      <img src="img/book.png">
-      <h2>rektorat</h2>
-      
-    </a>
-	  </div>
-
+<ion-content class="has-header" >
+	<div class="mytour">
+	 <ion-slide-box class="padding" on-slide-changed="slideChanged(index)">
+          <ion-slide ng-repeat="tour in tour" >
+            
+	   	   	<img class="col col-100"  src="{{tour.foto}}">
+		   	
+          </ion-slide>
+     </ion-slide-box>
+     </div>
  </ion-content>
 </ion-view>
