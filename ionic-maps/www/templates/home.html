@@ -1,80 +1,84 @@
 <ion-view>
-	<ion-content >
-  <div>
-    <img class="cover-header"src="img/header.jpg">
-    </div>
-    <div class="list list-inset">
-      <label class="item item-input">
-        <i class="icon ion-search placeholder-icon"></i>
-          <input type="text" placeholder="Search">
-      </label>
-    </div>  
-  <section class="home-container">
-     
-    <div class="row iconku">
+      <ion-content >
+        <div>
+          <img class="col col-100"src="img/header.jpg">
+          </div>
+           
+        <section class="home-container">
+          <div class="row icon-row"> 
+            
+            <div class="col text-center col-33">
+              <button class="button button-positive padding" onclick="window.open('https://siakad.uns.ac.id', '_system', 'location=yes'); return false;">
+                <img class="col col-100 padding" src="img/siakad.png">
+                <p class="text-center">Siakad</p>
+              </button>
+              
+            </div>
+          
+            <div class="col text-center  col-33">
+              <button class="button button-balanced padding" ui-sref="calender">
+                <img class="col col-100 padding" src="img/calendar.png">
+                <p class="text-center">Calender</p>
+              </button>
+            </div>
       
-      <div class="col text-center col-33">
-        <button class="button button-stable button-light padding"ui-sref="siakad">
-          <img class="col col-100 padding" src="img/mortarboard.png">
-        </button>
-        <p class="text-center">Siakad</p>
-      </div>
-      
-      <div class="col text-center  col-33">
-        <button class="button button-stable button-light padding"ui-sref="calender">
-          <img class="col col-100 padding" src="img/calendar.png">
-        </button>
-        <p class="text-center">Calender</p>
-      </div>
-  
-      <div class="col text-center col-33">
-        <button class="button button-stable button-light padding"ui-sref="tour">
-          <img class="col col-100 padding" src="img/language.png">
-        </button><p class="text-center">Tour</p>
-      </div>
-    </div>
+            <div class="col text-center col-33">
+              <button class="button button-balanced  padding" style="background-color:#001D55" onclick="window.open('https://library.uns.ac.id', '_system', 'location=yes'); return false;">
+                <img class="col col-100" src="img/library.png">
+                <p class="text-center">Library</p>
+              </button>
+            </div>
+         
+          </div>
 
-    <div class="row icon-row ">
-      <div class="col text-center col-33">
-        <button class="button button-stable button-light padding"ui-sref="sibea">
-          <img class="col col-100" src="img/money-bag.png">
-        </button><p class="text-center">Sibea</p>
-      </div>
-  
-      <div class="col text-center col-33">
-        <button class="button button-stable button-light padding"ui-sref="news">
-          <img class="col col-100" src="img/newspaper.png">
-        </button><p class="text-center">News</p>
-      </div>
+          <div class="row icon-row ">
+            <div class="col text-center col-33">
+              <button class="button button-balanced padding" style="background-color:#FF6E1D" onclick="window.open('http://sibea.mawa.uns.ac.id', '_system', 'location=yes'); return false;">
+                <img class="col col-100" src="img/sibea.png">
+                <p class="text-center">Sibea</p>
+              </button>
+            </div>
+        
+            <div class="col text-center col-33">
+              <button class="button button-assertive padding" ui-sref="news">
+                <img class="col col-100" src="img/news.png">
+                <p class="text-center">News</p>
+              </button>
+            </div>
 
-      <div class="col text-center col-33">
-        <button class="button button-stable button-light padding"ui-sref="contact">
-          <img class="col col-100" src="img/money-bag.png">
-        </button><p class="text-center">Contact</p>
-      </div>
+            <div class="col text-center col-33">
+              <button class="button button-energized padding" ui-sref="contact">
+                <img class="col col-100" src="img/smartphone.png">
+                <p class="text-center">Contact</p>
+              </button>
+            </div>
 
-    </div>
+          </div>
 
-    <div class="row icon-row ">
-      <div class="col text-center col-33">
-        <button class="button button-stable button-light padding"ui-sref="faculty">
-          <img class="col col-100" src="img/high-school.png">
-        </button><p class="text-center">Faculty</p>
-      </div>
-    
-      <div class="col text-center col-33">
-        <button class="button button-stable button-light padding"ui-sref="maps">
-          <img class="col col-100" src="img/pointer.png">
-        </button><p class="text-center">Maps</p>
-      </div>
-     
-      <div class="col text-center col-33">
-        <button class="button button-stable button-light  padding"ui-sref="library">
-          <img class="col col-100" src="img/yearbook-1.png">
-        </button><p class="text-center">Library</p>
-      </div>
-      
-    </div>
+          <div class="row icon-row ">
+            <div class="col text-center col-33">
+              <button class="button button-dark padding" ui-sref="faculty">
+                <img class="col col-100" src="img/fakultas.png">
+                <p class="text-center">Faculty</p>
+              </button>
+            </div>
+          
+            <div class="col text-center col-33">
+              <button class="button button-calm padding" ui-sref="maps">
+                <img class="col col-100" src="img/map.png">
+                <p class="text-center">Maps</p>
+              </button>
+            </div>
+           
+            <div class="col text-center col-33">
+              <button class="button button-royal  padding" ui-sref="tour">
+                <img class="col col-100 padding" src="img/placeholder.png">
+                <p class="text-center">Tour</p>
+              </button>
+            </div>
+            
+          </div>
 
-</section>
-</ion-view>
+        </section>
+      </ion-content>
+    </ion-view>
