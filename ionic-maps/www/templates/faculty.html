@@ -1,19 +1,16 @@
 <ion-view>
+	
+	<div class="bar bar-header" style="background-color:#63ccc5; ">
+	  <button class="button button-light icon ion-home" ui-sref="home"> Home</button>
+	  <div class="h1 title" style="color:#FFF;">Fakultas</div>
+	</div>
+	
 
-<ion-nav-bar ng-cotroller="backCtrl">
-<ion-nav-back-button class="button button-positif" ng-click="mygoback()">
-<i class="ion-arrow-left-c"></i>
-</ion-nav-back-button>
-<ion-nav-title>
-<p>Fakultas</p>
-</ion-nav-title>
-</ion-nav-bar>
-
-<ion-content class="has-header" >
-<ion-list>
-<ion-item ng-repeat="fakultas in fakultas" ui-sref="facultyDetails({idfakultas:{{fakultas.id}}})" >
-Fakultas {{fakultas.nama}}
-</ion-item>
-</ion-list>
-</ion-content>
+	<ion-content class="has-header">
+		<ion-list>
+			<ion-item ng-repeat="fakultas in fakultas" ui-sref="facultyDetails({idfakultas:{{fakultas.id}}})" >
+			Fakultas {{fakultas.nama}}
+			</ion-item>
+		</ion-list>
+	</ion-content>
 </ion-view>

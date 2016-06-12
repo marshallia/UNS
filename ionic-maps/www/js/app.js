@@ -1,4 +1,5 @@
-angular.module('ionic-maps', ['ionic'])
+
+angular.module('ionic-maps', ['ionic', 'ngCordova'])
 
 .run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
@@ -32,6 +33,7 @@ $scope.fakultas=facultyService.getfakultas();
 .controller('facultyDetailsCtr',function($scope,$stateParams, facultyService){
 $scope.fakultas=facultyService.getfacultass($stateParams.idfakultas);
 })
+
 
 .service('facultyService',function(){
   return{
@@ -161,7 +163,8 @@ $scope.fakultas=facultyService.getfacultass($stateParams.idfakultas);
     })
     .state('maps', {
       url: '/maps',
-      templateUrl: 'templates/maps.html'
+      templateUrl: 'templates/maps.html',
+      controller:'MapCtrl'
     })
     .state('news', {
       url: '/news',
@@ -180,6 +183,7 @@ $scope.fakultas=facultyService.getfacultass($stateParams.idfakultas);
       templateUrl: 'templates/tour.html',
       controller:'IntroCtrl'
     })
+
   ;
   $urlRouterProvider.otherwise('/home');
 })
@@ -249,3 +253,23 @@ $scope.slideChanged = function(index) {
   
   
 })
+
+.controller('MapCtrl', function($scope, $state, $cordovaGeolocation) {
+  var options = {timeout: 10000, enableHighAccuracy: true};
+ 
+  $cordovaGeolocation.getCurrentPosition(options).then(function(position){
+ 
+    var latLng = new google.maps.LatLng(-7.5610782, 110.8612641);
+ 
+    var mapOptions = {
+      center: latLng,
+      zoom: 15,
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+    };
+ 
+    $scope.map = new google.maps.Map(document.getElementById("map"), mapOptions);
+ 
+  }, function(error){
+    console.log("Could not get location");
+  });
+});
