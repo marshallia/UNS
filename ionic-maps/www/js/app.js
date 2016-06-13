@@ -43,8 +43,8 @@ $scope.fakultas=facultyService.getfacultass($stateParams.idfakultas);
       {
         id: "1",
         nama:"Matematika dan Ilmu Pengetahuan Alam",
-        latkan: 0,
-        longkan: 0,
+        latkan: -7.5589456,
+        longkan: 110.8548273,
         latmus: 0,
         longmus: 0,
         prodi: "S1 Matematika, S1 Fisika, S1 Kimia, S1 Biologi, S1 Informatika, S1 Farmasi, S1 Statistika, D3 Teknik Informatika, D3 Farmasi"
