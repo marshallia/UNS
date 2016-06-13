@@ -254,12 +254,51 @@ $scope.slideChanged = function(index) {
   
 })
 
+.service('checkpos', function(){
+  return {
+    position:[
+      {
+        lat1: 55.9879314,
+        long1: -4.3042387,
+        lat2: 55.8934378,
+        long2: -4.2201905
+      },
+    ],
+    getPos:function(){
+      console.log("YEY");
+      console.log(this.position[0].lat1);
+      return this.position[0];
+    },
+  }
+  
+  // position = {};
+  // position.lat1: 55.9879314;
+  // position.long1: -4.3042387;
+  // position.lat2: 55.8934378;
+  // position.long2: -4.2201905;
+  // return position;
+})
+
+.controller('refreshController', function($scope, $http) {
+  $scope.items = [1,2,3];
+  $scope.doRefresh = function() {
+    $http.get('/new-items')
+     .success(function(newItems) {
+       $scope.items = newItems;
+     })
+     .finally(function() {
+       // Stop the ion-refresher from spinning
+       $scope.$broadcast('scroll.refreshComplete');
+     });
+  };
+})
+
 .controller('MapCtrl', function($scope, $state, $cordovaGeolocation) {
   var options = {timeout: 10000, enableHighAccuracy: true};
  
   $cordovaGeolocation.getCurrentPosition(options).then(function(position){
  
-    var latLng = new google.maps.LatLng(-7.5610782, 110.8612641);
+    var latLng = new google.maps.LatLng(-7.5617641, 110.8540226);
  
     var mapOptions = {
       center: latLng,
@@ -273,3 +312,4 @@ $scope.slideChanged = function(index) {
     console.log("Could not get location");
   });
 });
+
