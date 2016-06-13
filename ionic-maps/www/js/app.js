@@ -35,86 +35,127 @@ $scope.fakultas=facultyService.getfacultass($stateParams.idfakultas);
 })
 
 
+
+
 .service('facultyService',function(){
   return{
     fakultas:[
       {
         id: "1",
-        nama:"MIPA",
-        informasi:"fakultas mipa berdiri sejak ggggggggggggg gasdufaer aweao ra oriav oi  eri erirfjjjjj fujfha . fauier au irv aorifuaworfh . ajofia oaie ifjaoiruaoweiruao rjoaewrawf, dfjbfaoub oeriana fieoafnoanoafi."
+        nama:"Matematika dan Ilmu Pengetahuan Alam",
+        latkan: 0,
+        longkan: 0,
+        latmus: 0,
+        longmus: 0,
+        prodi: "S1 Matematika, S1 Fisika, S1 Kimia, S1 Biologi, S1 Informatika, S1 Farmasi, S1 Statistika, D3 Teknik Informatika, D3 Farmasi"
+        
       },
       {
         id: "2",
         nama:"Teknik",
         programstudi:"",
-        map:"",
-        informasi:"fakultas teknik berdiri sejak  ggggggggggggg gasdufaer aweao ra oriav oi  eri erirfjjjjj fujfha . fauier au irv aorifuaworfh . ajofia oaie ifjaoiruaoweiruao rjoaewrawf, dfjbfaoub oeriana fieoafnoanoafi."
+        latkan: -7.5603615,
+        longkan: 110.8538084,
+        latmas: 0,
+        longmus: 0,
+        prodi: "S1 Teknik Sipil, S1 Arsitektur, S1 Teknik Mesin, S1 Teknik Industri, S1 Teknik Kimia, S1 Perencanaan Wilayah dan Kota, S1 Teknik Elektro"
+        
        
       },
       {
         id: "3",
         nama:"Kedokteran",
         programstudi:"",
-        map:"",
-        informasi:"fakultas kedokteran berdiri sejak  ggggggggggggg gasdufaer aweao ra oriav oi  eri erirfjjjjj fujfha . fauier au irv aorifuaworfh . ajofia oaie ifjaoiruaoweiruao rjoaewrawf, dfjbfaoub oeriana fieoafnoanoafi."
+        latkan: 0,
+        longkan: 0,
+        latkan: 0,
+        longmus: 0,
+        prodi: "S1 Kedokteran, S1 Psikologi, D3 Kebidanan, D4 Bidan Pendidik, D3 Hiperkes & Keselamatan, D4 Kesehatan Kerja"
+        
        
       },
        {
         id: "4",
         nama:"Pertanian",
         programstudi:"",
-        map:"",
-        informasi:"fakultas pertanian berdiri sejak  ggggggggggggg gasdufaer aweao ra oriav oi  eri erirfjjjjj fujfha . fauier au irv aorifuaworfh . ajofia oaie ifjaoiruaoweiruao rjoaewrawf, dfjbfaoub oeriana fieoafnoanoafi."
+        latkan: -7.561441,
+        longkan: 110.8576627,
+        latmus: 0,
+        longmus: 0,
+        prodi: "S1 Agroteknologi, S1 Ilmu Tanah, S1 Agribisnis, S1 Peternakan, S1 Ilmu dan Teknologi Pangan, S1 PKP, D3 Agribisnis, D3 Teknologi Hasil Peternakan"
+        
 
        
       },
       {
         id: "5",
-        nama:"HUKUM",
+        nama:"Hukum",
         programstudi:"",
-        map:"",
-        informasi:"fakultas HUKUM berdiri sejak  ggggggggggggg gasdufaer aweao ra oriav oi  eri erirfjjjjj fujfha . fauier au irv aorifuaworfh . ajofia oaie ifjaoiruaoweiruao rjoaewrawf, dfjbfaoub oeriana fieoafnoanoafi."
+        latkan: 0,
+        longkan: 0,
+        latmus: 0,
+        longmus: 0,
+        prodi: "S1 Hukum"
+        
         
       },
       {
         id: "6",
-        nama:"FISIP",
+        nama:"Ilmu Sosial dan Ilmu Politik",
         programstudi:"",
-        map:"",
-        informasi:"fakultas FISIP berdiri sejak  ggggggggggggg gasdufaer aweao ra oriav oi  eri erirfjjjjj fujfha . fauier au irv aorifuaworfh . ajofia oaie ifjaoiruaoweiruao rjoaewrawf, dfjbfaoub oeriana fieoafnoanoafi."
+        latkan: 0, 
+        longkan: 0, 
+        latmus: 0,
+        longmus: 0,
+        prodi : "S1 Ilmu Administrasi, S1 Ilmu Komunikasi, S1 Sosiologi, S1 Hubungan Internasional, D3 Komunikasi Terapan, D3 Manajemen Administrasi, D3 Perpustakaan"
+        
         
       },
       {
         id: "7",
-        nama:"EKONOMi",
+        nama:"Ekonomi dan Bisnis",
         programstudi:"",
-        map:"",
-        informasi:"fakultas ekonomi berdiri sejak  ggggggggggggg gasdufaer aweao ra oriav oi  eri erirfjjjjj fujfha . fauier au irv aorifuaworfh . ajofia oaie ifjaoiruaoweiruao rjoaewrawf, dfjbfaoub oeriana fieoafnoanoafi."
+        latkan: -7.5588467,
+        longkan: 110.8512508,
+        latmus: 0,
+        longmus: 0,
+        prodi: "S1 Akuntansi, S1 Manajemen, S1 Ekonomi Pembangunan,D3 Keuangan Perbankan, D3 Perpajakan, D3 Manajemen Perdagangan, D3 Manajemen Pemasaran, D3 Manajemen Bisnis, D3 Akuntansi Keuangan"
+        
         
       },
       {
         id: "8",
-        nama:"FIB",
+        nama:"Ilmu Budaya",
         programstudi:"",
-        map:"",
-        informasi:"fakultas ilmu budaya berdiri sejak  ggggggggggggg gasdufaer aweao ra oriav oi  eri erirfjjjjj fujfha . fauier au irv aorifuaworfh . ajofia oaie ifjaoiruaoweiruao rjoaewrawf, dfjbfaoub oeriana fieoafnoanoafi."
-        
+        latkan: 0,
+        longkan: 0,
+        latmus: 0,
+        longmus: 0, 
+        //prod: ['S1 Sastra Daerah, S1 Sastra Indonesia, S1 Sastra Inggris'],
+        prodi: "S1 Sastra Daerah, S1 Sastra Indonesia, S1 Sastra Inggris, S1 Ilmu Sejarah, S1 Sastra Arab, D3 Bahasa Inggris, D3 Usaha Perjalanan Wisata, D3 Bahasa China"
       },
       {
         id: "9",
-        nama:"FSSR",
+        nama:"Sastra dan Seni Rupa",
         programstudi:"",
-        map:"",
-        informasi:"fakultas sastra dan seni rupa berdiri sejak  ggggggggggggg gasdufaer aweao ra oriav oi  eri erirfjjjjj fujfha . fauier au irv aorifuaworfh . ajofia oaie ifjaoiruaoweiruao rjoaewrawf, dfjbfaoub oeriana fieoafnoanoafi."
+        latkan: -7.5595061,
+        longkan: 110.8564402,
+        latmus: 0,
+        longmus: 0,
+        prodi: "S1 Desain Interior, S1 Desain Komunikasi Visual, S1 Seni Rupa Murni, S1 Kriya Seni, D3 Desain Komunikasi Visual"
+        
 
        
       },
        {
         id: "10",
-        nama:"FKIP",
+        nama:"Keguruan dan Ilmu Pendidikan",
         programstudi:"",
-        map:"",
-        informasi:"fakultas keguruan dan ilmu pendidikan berdiri sejak  ggggggggggggg gasdufaer aweao ra oriav oi  eri erirfjjjjj fujfha . fauier au irv aorifuaworfh . ajofia oaie ifjaoiruaoweiruao rjoaewrawf, dfjbfaoub oeriana fieoafnoanoafi."
+        latkan: -7.561552,
+        longkan: 110.7880692,
+        latmus: 0,
+        longmus: 0
+        
 
        
       },
@@ -183,76 +224,22 @@ $scope.fakultas=facultyService.getfacultass($stateParams.idfakultas);
       templateUrl: 'templates/tour.html',
       controller:'IntroCtrl'
     })
+    .state('mapKantin', {
+      url: '/kantin/:idfakultas',
+      templateUrl: 'templates/maploc.html',
+      controller:  'mapKantin'
+    })
+    .state('mapMushola', {
+      url: '/mushola/:idfakultas',
+      templateUrl: 'templates/maploc2.html',
+      controller:  'mapMushola'
+    })
 
   ;
   $urlRouterProvider.otherwise('/home');
 })
 
-.controller('IntroCtrl', function($scope, $state, $ionicSlideBoxDelegate) {
- 
- $scope.tour=[
-  {
-    foto:"img/images (5).jpg",
-    nama:"",
-    informasi:""
-  },
-  {
-    foto:"img/images (6).jpg",
-    nama:"",
-    informasi:""
-  },
-  {
-    foto:"img/images (7).jpg",
-    nama:"",
-    informasi:""
-  },
-  {
-    foto:"img/images (8).jpg",
-    nama:"",
-    informasi:""
-  },
-  {
-    foto:"img/images (9).jpg",
-    nama:"",
-    informasi:""
-  },
-  {
-    foto:"img/images (10).jpg",
-    nama:"",
-    informasi:""
-  },
-  {
-    foto:"img/images (11).jpg",
-    nama:"",
-    informasi:""
-  },
-  {
-    foto:"img/images (13).jpg",
-    nama:"",
-    informasi:""
-  },
-  {
-    foto:"img/images (14).jpg",
-    nama:"Kampus Mesem",
-    informasi:"Kampus II UNS, kampus nya anak psikologi. biarpun terpisah UNS tetap di hati"
-  }
-  ];
-
-  $scope.startApp = function() {
-  $state.go('main');
-  };
-  $scope.next = function() {
-    $ionicSlideBoxDelegate.next();
-  };
-  $scope.previous = function() {
-    $ionicSlideBoxDelegate.previous();
-  };
-$scope.slideChanged = function(index) {
-    $scope.slideIndex = index;
-  };
   
-  
-})
 
 .service('checkpos', function(){
   return {
@@ -311,5 +298,169 @@ $scope.slideChanged = function(index) {
   }, function(error){
     console.log("Could not get location");
   });
-});
+})
+
+.controller('mapKantin',function($scope,$stateParams,$state,$cordovaGeolocation,$compile,facultyService){
+  $scope.fakultas=facultyService.getfacultass($stateParams.idfakultas);
+  console.log($stateParams.idfakultas);
+  //var positions = {};
+  console.log($scope.fakultas.latkan);
+  console.log($scope.fakultas.longkan);
+  var options = {timeout: 10000, enableHighAccuracy: true};
+  $cordovaGeolocation.getCurrentPosition(options).then(function(position){
+ 
+    var curPos = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
+    var kantin = new google.maps.LatLng($scope.fakultas.latkan,$scope.fakultas.longkan);
+
+    var mapOptions = {
+      center: curPos,
+      zoom: 15,
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+    };
+ 
+    var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+    var contentString = "<div><a ng-click='clickTest()'>Click me!</a></div>";
+    var compiled = $compile(contentString)($scope);
+
+    var infowindow = new google.maps.InfoWindow({
+      content: compiled[0]
+    });
+
+    var marker = new google.maps.Marker({
+      position: kantin,
+      map: map,
+      title: 'Kantin'
+    });
+    
+    var hospitalRoute = new google.maps.Marker({
+      position: curPos,
+      map: map,
+      title: 'Posisi anda'
+    });
+    
+    var infowindow = new google.maps.InfoWindow({
+         content:"Kantin"
+    });
+
+    infowindow.open(map,marker);
+    
+    var hospitalwindow = new google.maps.InfoWindow({
+         content:"Posisi anda"
+    });
+
+    hospitalwindow.open(map,hospitalRoute);
+   
+    google.maps.event.addListener(marker, 'click', function() {
+      infowindow.open(map,marker);
+    });
+
+    $scope.map = map;
+    
+    var directionsService = new google.maps.DirectionsService();
+    var directionsDisplay = new google.maps.DirectionsRenderer();
+
+    var request = {
+        origin : kantin,
+        destination : curPos,
+        travelMode : google.maps.TravelMode.DRIVING
+    };
+    directionsService.route(request, function(response, status) {
+        if (status == google.maps.DirectionsStatus.OK) {
+            directionsDisplay.setDirections(response);
+        }
+    });
+
+    directionsDisplay.setMap(map); 
+   
+  
+
+  //google.maps.event.addDomListener(window, 'load', initialize);  
+
+
+  }, function(error){
+    console.log("Could not get location");
+  });
+})
+
+.controller('mapMushola',function($scope,$stateParams,$state,$cordovaGeolocation,$compile,facultyService){
+  $scope.fakultas=facultyService.getfacultass($stateParams.idfakultas);
+  console.log($stateParams.idfakultas);
+  //var positions = {};
+  console.log($scope.fakultas.latmus);
+  console.log($scope.fakultas.longmus);
+  var options = {timeout: 10000, enableHighAccuracy: true};
+  $cordovaGeolocation.getCurrentPosition(options).then(function(position){
+ 
+    var curPos = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
+    var mushola = new google.maps.LatLng($scope.fakultas.latmus,$scope.fakultas.longmus);
+
+    var mapOptions = {
+      center: curPos,
+      zoom: 15,
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+    };
+ 
+    var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+    var contentString = "<div><a ng-click='clickTest()'>Click me!</a></div>";
+    var compiled = $compile(contentString)($scope);
+
+    var infowindow = new google.maps.InfoWindow({
+      content: compiled[0]
+    });
+
+    var marker = new google.maps.Marker({
+      position: mushola,
+      map: map,
+      title: 'Mushola'
+    });
+    
+    var hospitalRoute = new google.maps.Marker({
+      position: curPos,
+      map: map,
+      title: 'Posisi anda'
+    });
+    
+    var infowindow = new google.maps.InfoWindow({
+         content:"Mushola"
+    });
+
+    infowindow.open(map,marker);
+    
+    var hospitalwindow = new google.maps.InfoWindow({
+         content:"Posisi anda"
+    });
+
+    hospitalwindow.open(map,hospitalRoute);
+   
+    google.maps.event.addListener(marker, 'click', function() {
+      infowindow.open(map,marker);
+    });
+
+    $scope.map = map;
+    
+    var directionsService = new google.maps.DirectionsService();
+    var directionsDisplay = new google.maps.DirectionsRenderer();
+
+    var request = {
+        origin : mushola,
+        destination : curPos,
+        travelMode : google.maps.TravelMode.DRIVING
+    };
+    directionsService.route(request, function(response, status) {
+        if (status == google.maps.DirectionsStatus.OK) {
+            directionsDisplay.setDirections(response);
+        }
+    });
+
+    directionsDisplay.setMap(map); 
+   
+  
+
+  //google.maps.event.addDomListener(window, 'load', initialize);  
+
+
+  }, function(error){
+    console.log("Could not get location");
+  });
+})
 
