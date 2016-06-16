@@ -47,6 +47,7 @@ $scope.fakultas=facultyService.getfacultass($stateParams.idfakultas);
         longkan: 110.8548273,
         latmus: 0,
         longmus: 0,
+        info: "Fakultas Matematika dan Ilmu Pengetahuan Alam (FMIPA) Universitas Sebelas Maret (UNS) diresmikan pada tanggal 2 Mei 1997 yang terdiri dari empat jurusan, yaitu Matematika, Kimia, Biologi dan Fisika. Jurusan Matematika FMIPA UNS merupakan embrio berdirinya FMIPA UNS yang mulai dirintis sejak tahun 1982. Faktor yang mendorong berdirinya FMIPA UNS adalah adanya kenyataan bahwa dalam rangka peningkatan pelaksanaan pembangunan nasional diperlukan pengembangan ilmu pengetahuan, teknologi dan seni (IPTEKS), yang berbasis pada ilmu-ilmu dasar (Basic Sciences) yang menjadi dasar pengembangan teknologi.",
         prodi: "S1 Matematika, S1 Fisika, S1 Kimia, S1 Biologi, S1 Informatika, S1 Farmasi, S1 Statistika, D3 Teknik Informatika, D3 Farmasi"
         
       },
@@ -58,6 +59,7 @@ $scope.fakultas=facultyService.getfacultass($stateParams.idfakultas);
         longkan: 110.8538084,
         latmas: 0,
         longmus: 0,
+        info: "Fakultas Teknik UNS berdiri sejak tanggal 11 Maret 1976, bersamaan dengan berdirinya Universitas Sebelas Maret. Sampai dengan Tahun Akademik 2011/2012 jumlah mahasiswa terdaftar di Fakultas Teknik Universitas Sebelas Maret sebanyak 2.793 mahasiswa terdiri atas Program S-1 Reguler 1.617 mahasiswa, program S-1 Non Reguler 146 mahasiswa, program S-1 Swadana Transfer 220 mahasiswa dan program Diploma sebanyak 677 mahasiswa.",
         prodi: "S1 Teknik Sipil, S1 Arsitektur, S1 Teknik Mesin, S1 Teknik Industri, S1 Teknik Kimia, S1 Perencanaan Wilayah dan Kota, S1 Teknik Elektro"
         
        
@@ -70,6 +72,7 @@ $scope.fakultas=facultyService.getfacultass($stateParams.idfakultas);
         longkan: 0,
         latkan: 0,
         longmus: 0,
+        info: "Fakultas Kedokteran Universitas Sebelas Maret (FK UNS) didirikan pada tahun 1976, bersamaan dengan berdirinya Universitas Negeri Surakarta Sebelas Maret yang dikukuhkan dengan Keputusan Presiden RI Nomor : 10 Tahun 1976. Fakultas Kedokteran Universitas Sebelas Maret dilihat dari aspek sejarah merupakan gabungan dari Fakultas Kedokteran Perguruan Tinggi Pembangunan Nasional (PTPN) Veteran Surakarta dan Fakultas Kedokteran Universitas Islam Indonesia Cabang Surakarta. Setelah Universitas Sebelas Maret didirikan pada 11 Maret 1976, maka nama FK UNS ini resmi dikenal.",
         prodi: "S1 Kedokteran, S1 Psikologi, D3 Kebidanan, D4 Bidan Pendidik, D3 Hiperkes & Keselamatan, D4 Kesehatan Kerja"
         
        
@@ -82,6 +85,7 @@ $scope.fakultas=facultyService.getfacultass($stateParams.idfakultas);
         longkan: 110.8576627,
         latmus: 0,
         longmus: 0,
+        info: "Fakultas Pertanian Universitas Sebelas Maret, Surakarta semula berasal dari Fakultas Pertanian Universitas Swasta yang tergabung dalam Universitas Gabungan Surakarta. Pada awal kelahirannya Fakultas Pertanian UNS mempunyai dua Jurusan  yaitu : Jurusan Budidaya Pertanian (BP)  dan Sosial Ekonomi Pertanian (Sosek). Jurusan Budidaya Pertanian (BP) mempunyai dua program studi yaitu Agronomi dan Ilmu Tanah, sedangkan Sosial Ekonomi Pertaian (Sosek) mempunyai dua program studi yaitu Ekonomi Pertanian dan Sosiologi Pedesaan. Fakultas Pertanian UNS telah mengembangkan dan menghasilkan berbagai produk antara lain berupa benih dan tanaman unggul, bibit hasil kultur jaringan, pupuk organik / anorganik, produk herbal dan berbagai jenis minuman dan makanan olahan.",
         prodi: "S1 Agroteknologi, S1 Ilmu Tanah, S1 Agribisnis, S1 Peternakan, S1 Ilmu dan Teknologi Pangan, S1 PKP, D3 Agribisnis, D3 Teknologi Hasil Peternakan"
         
 
@@ -95,6 +99,7 @@ $scope.fakultas=facultyService.getfacultass($stateParams.idfakultas);
         longkan: 0,
         latmus: 0,
         longmus: 0,
+        info: "Pada awal berdirinya Fakultas Hukum UNS dibuka dengan tiga jurusan, yakni: Jurusan Hukum Keperdataan, Jurusan Hukum Pidana, Jurusan Hukum Tata Negara. Namun, saat ini Fakultas Hukum mempunyai 1 (satu) pro­gram studi saja yaitu Program Studi Ilmu Hukum, dengan 7 Bagian yaitu Bagian Hukum Keperdataan, Bagian Hukum dan Masyarakat, Bagian Hukum Acara, Bagian Hukum Administrasi Negara, Bagian Hukum Tata Negara, Bagian Hukum Pidana dan Bagian Hukum Internasional.",
         prodi: "S1 Hukum"
         
         
@@ -107,6 +112,7 @@ $scope.fakultas=facultyService.getfacultass($stateParams.idfakultas);
         longkan: 0, 
         latmus: 0,
         longmus: 0,
+        info: "Fakultas Ilmu Sosial dan Ilmu Politik Universitas Sebelas Maret (FISIP-UNS) didirikan pada tahun 1976, bersamaan dengan berdirinya Universitas Negeri Surakarta Sebelas Maret yang dikukuhkan dengan Keputusan Presiden RI Nomor : 10 Tahun 1976. Pada saat berdiri nama FISIP-UNS adalah Fakultas Ilmu Sosial dan Politik dan memiliki dua jurusan, yaitu Jurusan Administrasi Negara dan Jurusan Publisistik. Sekarang, FISIP UNS semakin berkembang dengan adanya prodi - prodi baru. ",
         prodi : "S1 Ilmu Administrasi, S1 Ilmu Komunikasi, S1 Sosiologi, S1 Hubungan Internasional, D3 Komunikasi Terapan, D3 Manajemen Administrasi, D3 Perpustakaan"
         
         
@@ -119,6 +125,7 @@ $scope.fakultas=facultyService.getfacultass($stateParams.idfakultas);
         longkan: 110.8512508,
         latmus: 0,
         longmus: 0,
+        info: "Fakultas Ekonomi Universitas Sebelas Maret Surakarta lahir bersamaan dengan diresmikannya Universitas Sebelas Maret.",
         prodi: "S1 Akuntansi, S1 Manajemen, S1 Ekonomi Pembangunan,D3 Keuangan Perbankan, D3 Perpajakan, D3 Manajemen Perdagangan, D3 Manajemen Pemasaran, D3 Manajemen Bisnis, D3 Akuntansi Keuangan"
         
         
@@ -131,6 +138,7 @@ $scope.fakultas=facultyService.getfacultass($stateParams.idfakultas);
         longkan: 0,
         latmus: 0,
         longmus: 0, 
+        info: "Sebelumnya, FIB UNS merupakan bagian dari FSSR UNS. Namun pada tahun 2014 akhirnya tata kelola Fakultas Sastra dan Seni Rupa UNS diubah dan disesuaikan berdasarkan ranah keilmuan masing-masing menjadi Fakultas Ilmu Budaya dan Fakultas Seni Rupa dan Desain UNS.",
         //prod: ['S1 Sastra Daerah, S1 Sastra Indonesia, S1 Sastra Inggris'],
         prodi: "S1 Sastra Daerah, S1 Sastra Indonesia, S1 Sastra Inggris, S1 Ilmu Sejarah, S1 Sastra Arab, D3 Bahasa Inggris, D3 Usaha Perjalanan Wisata, D3 Bahasa China"
       },
@@ -142,6 +150,7 @@ $scope.fakultas=facultyService.getfacultass($stateParams.idfakultas);
         longkan: 110.8564402,
         latmus: 0,
         longmus: 0,
+        info: "Fakultas Seni Rupa dan Desain (FSRD) berdiri pada 20 Agustus 2014 yang semulanya masih tergabung dengan FSSR UNS. Dengan dipecahnya FSSR UNS menjadi FIB dan FSRD, maka FSRD menjadi fakultas kesepuluh yang dimiliki Universitas Sebelas Maret (UNS) Solo saat ini.",
         prodi: "S1 Desain Interior, S1 Desain Komunikasi Visual, S1 Seni Rupa Murni, S1 Kriya Seni, D3 Desain Komunikasi Visual"
         
 
@@ -154,7 +163,8 @@ $scope.fakultas=facultyService.getfacultass($stateParams.idfakultas);
         latkan: -7.561552,
         longkan: 110.7880692,
         latmus: 0,
-        longmus: 0
+        longmus: 0,
+        info: "Fakultas Keguruan dan Ilmu Pendidikan UNS adalah cikal bakal berdirinya Universitas Sebelas Maret yang sekarang. Berdasarkan Surat Keputusan Presiden RI NO. 10 tahun 1976 tertanggal 8 Maret 1976, IKIP negeri Surakarta, STO Negeri Surakarta, Akademi Administrasi Niaga (AAN) Surakarta dan Fakultas Kedokteran Perguruan Tinggi Pembangunan Nasional Veteran (PTPN). Cabang Surakarta yang semula berhimpun dalam Universitas Gabungan Surakarta kemudian menjelma menjadi Universitas Negeri Surakarta Sebelas Maret (UNS). IKIP Negeri Surakarta dan STO Negeri Surakarta menjadi Fakultas Keguruan dan Fakultas Ilmu Pendidikan (FIP). Selanjutnya pada tahun 1982 nama tersebut berubah menjadi Universitas Sebelas Maret (UNS), Fakultas Keguruan dan Fakultas Ilmu Pendidikan (FIP) bergabung menjadi Fakultas Keguruan dan Ilmu Pendidikan (FKIP). FKIP merupakan fakultas yang memiliki jumlah prodi terbanyak di antara fakultas lainnya. "
         
 
        
@@ -218,6 +228,10 @@ $scope.fakultas=facultyService.getfacultass($stateParams.idfakultas);
     .state('sibea', {
       url: '/sibea',
       templateUrl: 'templates/sibea.html'
+    })
+    .state('dev', {
+      url: '/developer',
+      templateUrl: 'templates/dev.html'
     })
       .state('tour', {
       url: '/tour',
